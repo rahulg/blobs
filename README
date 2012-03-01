@@ -1,0 +1,11 @@
+Build Instructions:
+
+To compile blobs, run
+	make
+in your terminal. If you, for some strange reason, want the tool to fork into the background and kill itself (leaving an orphan process to do the dancing), type
+	make fork
+
+Installation:
+
+You can simply copy the blobs file anywhere you want. If you'd like it to go to the default /usr/local/bin location, type
+	make install
